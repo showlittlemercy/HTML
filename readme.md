@@ -1,6 +1,3 @@
-Here is the `README.md` code ready for you to copy and paste.
-
-````markdown
 # HTML5_ROOT_ACCESS // TERMINAL V2.0
 
 ![Project Status](https://img.shields.io/badge/STATUS-OPERATIONAL-00ff41?style=for-the-badge&logo=linux)
@@ -45,14 +42,12 @@ Unlike standard documentation, this project utilizes a **Cyber-Deck UI** featuri
 
 ### 1. CLONE_REPOSITORY
 ```bash
-git clone [https://github.com/your-username/html5-root-access.git](https://github.com/your-username/html5-root-access.git)
+git clone https://github.com/your-username/html5-root-access.git
 cd html5-root-access
-````
+```
 
-### 2\. EXECUTE\_LOCALLY
-
+### 2. EXECUTE_LOCALLY
 No build steps required. Simply open `index.html` in your preferred browser.
-
 ```bash
 # MacOS / Linux
 open index.html
@@ -61,48 +56,40 @@ open index.html
 start index.html
 ```
 
------
+---
 
 ## 🎨 VISUAL PREVIEW
 
-### // THE\_INTERFACE
-
+### // THE_INTERFACE
 The UI is divided into a **Command Sidebar** and a **Main Terminal Window**. Navigation is handled via the "Directory Tree" on the left.
 
-### // THE\_THEME
+### // THE_THEME
+* **Primary:** `#00ff41` (Matrix Green)
+* **Secondary:** `#bf00ff` (Cyber Punk Purple)
+* **Background:** `#050505` (Void Black)
 
-  * **Primary:** `#00ff41` (Matrix Green)
-  * **Secondary:** `#bf00ff` (Cyber Punk Purple)
-  * **Background:** `#050505` (Void Black)
-
------
+---
 
 ## 🤝 CONTRIBUTING
-
 Agents wishing to contribute to the protocol may fork the repository.
-
 1.  Fork the Project
 2.  Create your Feature Branch (`git checkout -b feature/NewModule`)
 3.  Commit your Changes (`git commit -m 'Inject new module'`)
 4.  Push to the Branch (`git push origin feature/NewModule`)
 5.  Open a Pull Request
 
------
+---
 
-## 👤 AUTHOR\_DATA
+## 👤 AUTHOR_DATA
 
 **PRIYANSHU**
+* **Role:** Lead Architect / Super User
+* **Contact:** [showlittlemercy@gmail.com](mailto:showlittlemercy@gmail.com)
+* **Status:** `ONLINE`
 
-  * **Role:** Lead Architect / Super User
-  * **Contact:** [showlittlemercy@gmail.com](mailto:showlittlemercy@gmail.com)
-  * **Status:** `ONLINE`
+---
 
------
-
-\<div align="center"\>
-\<sub\>End of Line. System Standby.\</sub\><br>
-\<sub\>© 2025 Priyanshu. All Rights Reserved.\</sub\>
-\</div\>
-
-```
-```
+<div align="center">
+  <sub>End of Line. System Standby.</sub><br>
+  <sub>© 2025 Priyanshu. All Rights Reserved.</sub>
+</div>
