@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5_ROOT_ACCESS // PRIYANSHU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="boot-screen">
+        <div id="boot-text"></div>
+    </div>
+
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+    
+    <div id="cursor-custom"></div>
+
+    <div class="interface-container">
+        
+        <aside class="sidebar">
+            <div class="user-profile">
+                <div class="avatar-glitch" data-text="P">P</div>
+                <div class="user-info">
+                    <h3 class="glitch-text">PRIYANSHU</h3>
+                    <span class="status">:: SUPER_USER ::</span>
+                </div>
+            </div>
+
+            <nav class="nav-tree">
+                <div class="nav-header">> ./NAVIGATION</div>
+                <ul>
+                    <li><a href="#intro" class="nav-item active">[01] INIT_SYSTEM</a></li>
+                    <li><a href="#text" class="nav-item">[02] TEXT_MODULES</a></li>
+                    <li><a href="#forms" class="nav-item">[03] INPUT_DATA</a></li>
+                    <li><a href="#media" class="nav-item">[04] MEDIA_STREAM</a></li>
+                    <li><a href="#lists" class="nav-item">[05] ARRAYS & LINKS</a></li>
+                    <li><a href="#semantic" class="nav-item">[06] LAYOUT_GRID</a></li>
+                    <li><a href="#scripting" class="nav-item">[07] GFX_ENGINE</a></li>
+                    <li><a href="#extra" class="nav-item">[08] SECRET_TOOLS</a></li>
+                </ul>
+            </nav>
+
+            <div class="system-stats">
+                <p>CPU: <span id="cpu-stat">12%</span></p>
+                <p>MEM: <span id="mem-stat">4096MB</span></p>
+                <p>NET: <span class="blink">CONNECTED</span></p>
+            </div>
+        </aside>
+
+        <main class="terminal-window">
+            
+            <header id="intro" class="terminal-header">
+                <div class="cmd-bar">
+                    <span class="prompt">root@html5:~$</span> <span class="typing-effect">init documentation --verbose</span>
+                </div>
+                <h1>HTML5 <span class="highlight">PROTOCOL</span></h1>
+                <p class="subtitle">COMPLETE SYNTAX REFERENCE // V 2.0 // PRIYANSHU</p>
+            </header>
+
+            <section id="text" class="data-block">
+                <h2 class="block-title">02. TEXT_PROCESSING</h2>
+                
+                <div class="syntax-card">
+                    <div class="card-header">
+                        <span class="file-name">headers.html</span>
+                        <span class="permissions">r-x</span>
+                    </div>
+                    <div class="card-body grid-layout">
+                        <div class="explanation">
+                            <h4>Headings &lt;h1&gt;-&lt;h6&gt;</h4>
+                            <p>Defines the hierarchy. <code>&lt;h1&gt;</code> is the main title (use once). <code>&lt;h6&gt;</code> is the smallest.</p>
+                        </div>
+                        <div class="code-preview">
+                            <pre>&lt;h1&gt;System Failure&lt;/h1&gt;
+&lt;h3&gt;Error Code: 404&lt;/h3&gt;</pre>
+                        </div>
+                        <div class="live-demo">
+                            <h1>System Failure</h1>
+                            <h3>Error Code: 404</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="syntax-card">
+                    <div class="card-header">
+                        <span class="file-name">inline_styles.html</span>
+                        <span class="permissions">r-x</span>
+                    </div>
+                    <div class="card-body grid-layout">
+                        <div class="explanation">
+                            <h4>Emphasis Tags</h4>
+                            <p><code>&lt;strong&gt;</code>: High importance (Bold).</p>
+                            <p><code>&lt;em&gt;</code>: Stress emphasis (Italic).</p>
+                            <p><code>&lt;code&gt;</code>: Monospaced code font.</p>
+                            <p><code>&lt;kbd&gt;</code>: Keyboard input.</p>
+                        </div>
+                        <div class="code-preview">
+                            <pre>&lt;p&gt;Press &lt;kbd&gt;ESC&lt;/kbd&gt; to exit.&lt;/p&gt;
+&lt;p&gt;Check &lt;code&gt;var x&lt;/code&gt; now.&lt;/p&gt;</pre>
+                        </div>
+                        <div class="live-demo">
+                            <p>Press <kbd>ESC</kbd> to exit.</p>
+                            <p>Check <code>var x</code> now.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="forms" class="data-block">
+                <h2 class="block-title">03. DATA_INJECTION</h2>
+                
+                <div class="syntax-card">
+                    <div class="card-header">
+                        <span class="file-name">login_matrix.html</span>
+                        <span class="permissions">rw-</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="explanation full-w">
+                            <h4>Forms & Inputs</h4>
+                            <p>The <code>&lt;form&gt;</code> tag wraps inputs. The <code>placeholder</code> attribute gives a hint. The <code>required</code> attribute prevents empty submission.</p>
+                        </div>
+                        
+                        <div class="hacker-form-container">
+                            <form onsubmit="return false">
+                                <div class="input-line">
+                                    <label>USERNAME:</label>
+                                    <input type="text" placeholder="Enter Agent Name..." required>
+                                </div>
+                                <div class="input-line">
+                                    <label>PASSCODE:</label>
+                                    <input type="password" placeholder="******">
+                                </div>
+                                <div class="input-line">
+                                    <label>SECURITY LEVEL:</label>
+                                    <input type="range" min="1" max="5">
+                                </div>
+                                <button class="hacker-btn">>> INJECT DATA</button>
+                            </form>
+                        </div>
+                        
+                        <div class="code-preview full-w mt-2">
+<pre>&lt;form&gt;
+  &lt;input type="text" placeholder="Name" required&gt;
+  &lt;input type="password"&gt;
+  &lt;input type="range" min="1" max="5"&gt;
+  &lt;button&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="media" class="data-block">
+                <h2 class="block-title">04. VISUAL_FEED</h2>
+                
+                <div class="grid-2">
+                    <div class="syntax-card">
+                        <div class="card-header">
+                            <span class="file-name">img_stream.html</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Images</h4>
+                            <p><code>src</code>: Path to image.<br><code>alt</code>: Text description (Crucial).</p>
+                            <div class="live-demo border-neon">
+                                <div style="width:100%; height:80px; background:#0f0; color:black; display:flex; align-items:center; justify-content:center;">IMG_PLACEHOLDER_404</div>
+                            </div>
+                            <pre>&lt;img src="path.jpg" alt="Hacked"&gt;</pre>
+                        </div>
+                    </div>
+
+                    <div class="syntax-card">
+                        <div class="card-header">
+                            <span class="file-name">audio_log.html</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Audio/Video</h4>
+                            <p><code>controls</code> adds play/pause buttons.</p>
+                            <div class="live-demo">
+                                <audio controls style="width: 100%; height: 30px;">
+                                    <source src="dummy.mp3" type="audio/mpeg">
+                                </audio>
+                            </div>
+                            <pre>&lt;audio controls&gt;
+  &lt;source src="file.mp3"&gt;
+&lt;/audio&gt;</pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section id="lists" class="data-block">
+                <h2 class="block-title">05. ARRAYS & LINKS</h2>
+                
+                <div class="grid-2">
+                    <div class="syntax-card">
+                        <div class="card-header">
+                            <span class="file-name">array_unordered.html</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Unordered List</h4>
+                            <div class="live-demo">
+                                <ul>
+                                    <li>Target A</li>
+                                    <li>Target B</li>
+                                </ul>
+                            </div>
+                            <pre>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                        </div>
+                    </div>
+
+                    <div class="syntax-card">
+                        <div class="card-header">
+                            <span class="file-name">array_ordered.html</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Ordered List</h4>
+                            <div class="live-demo">
+                                <ol>
+                                    <li>Step 1: Hack</li>
+                                    <li>Step 2: Access</li>
+                                </ol>
+                            </div>
+                            <pre>&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</pre>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="syntax-card mt-2">
+                    <div class="card-header">
+                        <span class="file-name">hyperlink_protocol.html</span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Hyperlinks</h4>
+                        <p>The <code>target="_blank"</code> attribute opens the link in a new tab (prevents session loss).</p>
+                        <div class="live-demo">
+                            <a href="#" style="color:blue; text-decoration:underline;">>> INITIATE LINK</a>
+                        </div>
+                        <pre>&lt;a href="https://google.com" target="_blank"&gt;Click Here&lt;/a&gt;</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section id="semantic" class="data-block">
+                <h2 class="block-title">06. GRID_STRUCTURE</h2>
+                
+                <div class="syntax-card">
+                    <div class="card-header">
+                        <span class="file-name">layout_schematic.html</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="semantic-blueprint">
+                            <div class="s-head">&lt;HEADER&gt;</div>
+                            <div class="s-nav">&lt;NAV&gt;</div>
+                            <div class="s-body">
+                                <div class="s-main">&lt;MAIN&gt;</div>
+                                <div class="s-aside">&lt;ASIDE&gt;</div>
+                            </div>
+                            <div class="s-foot">&lt;FOOTER&gt;</div>
+                        </div>
+                        <div class="explanation mt-2">
+                            <p>These tags don't change visuals, but define <strong>Meaning</strong> for the browser and SEO bots.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section id="scripting" class="data-block">
+                <h2 class="block-title">07. GRAPHICS_ENGINE</h2>
+                
+                <div class="syntax-card">
+                    <div class="card-header">
+                        <span class="file-name">canvas_render.js</span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Canvas API</h4>
+                        <p>Used for drawing graphics via JavaScript. Essential for game dev and data viz.</p>
+                        <div class="live-demo" style="background: white;">
+                            <canvas id="demoCanvas" width="100" height="50" style="border:1px solid #000;"></canvas>
+                            <script>
+                                // Small inline script for demo purposes only
+                                window.addEventListener('load', function() {
+                                    var c = document.getElementById("demoCanvas");
+                                    var ctx = c.getContext("2d");
+                                    ctx.font = "10px Arial";
+                                    ctx.fillStyle = "black";
+                                    ctx.fillText("CANVAS RENDERING", 5, 30);
+                                });
+                            </script>
+                        </div>
+                        <pre>&lt;canvas id="myCanvas"&gt;&lt;/canvas&gt;
+&lt;script&gt;
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  // JS Drawing logic here
+&lt;/script&gt;</pre>
+                    </div>
+                </div>
+
+                <div class="syntax-card mt-2">
+                    <div class="card-header">
+                        <span class="file-name">svg_vector.xml</span>
+                    </div>
+                    <div class="card-body">
+                        <h4>SVG (Scalable Vector Graphics)</h4>
+                        <p>Resolution-independent graphics built with XML tags.</p>
+                        <div class="live-demo" style="display:flex; justify-content:center;">
+                            <svg width="50" height="50">
+                                <circle cx="25" cy="25" r="20" stroke="green" stroke-width="4" fill="black" />
+                            </svg>
+                        </div>
+                        <pre>&lt;svg width="100" height="100"&gt;
+  &lt;circle cx="50" cy="50" r="40" stroke="green" /&gt;
+&lt;/svg&gt;</pre>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="extra" class="data-block">
+                <h2 class="block-title">08. CLASSIFIED_TOOLS</h2>
+                
+                <div class="syntax-card">
+                    <div class="card-header">
+                        <span class="file-name">encrypted_table.html</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="cyber-table">
+                            <thead>
+                                <tr>
+                                    <th>TAG</th>
+                                    <th>FUNCTION</th>
+                                    <th>STATUS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>&lt;details&gt;</td>
+                                    <td>Collapsible</td>
+                                    <td>ACTIVE</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;dialog&gt;</td>
+                                    <td>Popup Modal</td>
+                                    <td>PENDING</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="syntax-card mt-2">
+                    <div class="card-header">
+                        <span class="file-name">interactive.html</span>
+                    </div>
+                    <div class="card-body">
+                        <details>
+                            <summary class="hacker-summary">>> CLICK_TO_DECRYPT_MESSAGE</summary>
+                            <p class="secret-msg">The secret to HTML is semantic correctness. Don't use &lt;div&gt; for everything.</p>
+                        </details>
+                        <pre>&lt;details&gt;
+  &lt;summary&gt;Click Me&lt;/summary&gt;
+  &lt;p&gt;Hidden Text&lt;/p&gt;
+&lt;/details&gt;</pre>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="terminal-footer">
+                <div class="footer-line">
+                    <span>USER: PRIYANSHU</span>
+                    <span>SESSION: SECURE</span>
+                </div>
+                <div class="contact-link">
+                    <a href="mailto:showlittlemercy@gmail.com">>> EMAIL_ENCRYPTED: showlittlemercy@gmail.com</a>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
